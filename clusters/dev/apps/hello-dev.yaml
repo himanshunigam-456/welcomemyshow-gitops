@@ -12,7 +12,7 @@ spec:
     path: clusters/dev/apps/hello-dev
 
   destination:
-    name: k3d-dev
+    server: https://kubernetes.default.svc
     namespace: dev
 
   syncPolicy:
