@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/himanshunigam-456/welcomemyshow-gitops.git
     targetRevision: main
-    path: clusters/dev/apps/hello-dev
+    path: clusters/dev/workloads/hello-dev
 
   destination:
     server: https://kubernetes.default.svc
@@ -21,3 +21,4 @@ spec:
       selfHeal: true
     syncOptions:
       - CreateNamespace=true
+
